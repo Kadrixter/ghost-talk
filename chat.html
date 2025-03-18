@@ -1,0 +1,26 @@
+<!-- chat.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Ghost Talk - Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <aside class="users-list">
+      <h2>Użytkownicy Online</h2>
+      <ul id="onlineUsers"></ul>
+    </aside>
+    <section class="chat-section">
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Wpisz wiadomość...">
+        <button id="sendBtn">Wyślij</button>
+      </div>
+      <div id="serverStatus" class="server-status"></div>
+    </section>
+  </div>
+  <script src="chat.js"></script>
+</body>
+</html>
